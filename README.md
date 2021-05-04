@@ -2,10 +2,10 @@
 A Minecraft plugin that's make it possible to make GUI's
 Use the example file to use as example for you work for your own GUI's
 
-# Placeholders
-<player>
-<world>
-<online>
+# Placeholders:
+- <player>
+- <world>
+- <online>
 <level>
 <exp>
 <ip>

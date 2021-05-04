@@ -2,7 +2,7 @@
 A Minecraft plugin that's make it possible to make GUI's
 Use the example file to use as example for you work for your own GUI's
 
-Short tutorial:
+# Short tutorial:
 Placeholders:
 <player>
 <world>
@@ -16,7 +16,7 @@ Placeholders:
 <y>
 <z>
 
-Items:
+# Items:
 name: displayname
 lore: lore (list)
 material: item/block
@@ -32,7 +32,7 @@ Required-items: items that needs to be required to use this item (list)
 Commands: execute commands with the item (list)
 Head: when material = player_head than me(player) or username (head: me || head: Notch)
 
-Example:
+# Example:
 Example:
   Name: '&bHello <player>'
   Material: diamond_block || player_head

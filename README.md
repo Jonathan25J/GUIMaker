@@ -58,8 +58,7 @@ Example:
   Hide-enchantments: true
  
 # Picture
-https://cdn.discordapp.com/attachments/817031978489479188/839244655047868476/unknown.png
-
+![image](https://user-images.githubusercontent.com/78378288/117069130-6cc5ca00-ad2c-11eb-920e-a520f2599d80.png)
 
 # Inspired of
 ChestCommands plugin from FiloGhost

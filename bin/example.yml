@@ -1,0 +1,82 @@
+############################################
+#                                          #
+#                  GUI                     #
+#                example                   #
+#                                          #
+############################################
+
+##GUI Menu Settings##
+settings:
+
+##The name of the GUI
+ name: '&aExample GUI'
+
+##Total rows of the GUI
+ rows: 3
+
+##Commands to open the menu
+ commands:
+ - menu
+ 
+##Message that you will get when you open the menu
+ message: '&eOpened example.yml'
+
+##+Items+##
+user:
+   Name: '&6<player>'
+   Material: player_head
+   Head: me
+   X: 1
+   Y: 3
+   Lore:
+   - 'user: <player>'
+   - 'world: <world>'
+   - 'level: <level>'
+   - 'coords: x: <x>, y: <y>, z: <z>'
+   Keep-open: true
+   
+turtle egg:
+   Name: '&a&kRare turtle egg'
+   Material: turtle_egg
+   X: 5
+   Y: 2
+   Permission: jonaqhan.special.turtle
+   Access-denied: '&a&kegg &cYou dont have this special permisssion! &a&kegg'
+   Enchantments:
+   - unbreaking, 3
+   Hide-enchantments: true
+   Keep-open: true
+
+pirate_sword:
+   Name: '&6Pirate sword'
+   Material: wooden_sword
+   X: 8
+   Y: 2
+   Durability: 50
+   Lore:
+   - '&bonly real pirates can use it'
+
+diamond:
+   Name: '&bRich'
+   Material: diamond
+   X: 5
+   Y: 3
+   Enchantments:
+   - unbreaking, 3
+   Hide-enchantments: true
+   Required-items:
+   - diamond, 1000
+   - emerald_block, 5000
+   - gold_block, 1
+   Keep-open: true
+
+emerald:
+   Name: '&aThe truth'
+   Material: emerald
+   X: 1
+   Y: 1
+   Commands:
+   - op, execute as @s run say i am a noob
+   - console, say true
+#  - open, file.yml
+#  - give @s diamond_block 55555

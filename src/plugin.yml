@@ -1,0 +1,6 @@
+name: GUIMaker
+version: 1.0
+author: Jonaqhan
+main: me.jonaqhan.guimaker.Main
+description: Make your own GUI's with this plugin
+api-version: 1.16

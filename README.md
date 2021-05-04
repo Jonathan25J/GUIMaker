@@ -2,8 +2,8 @@
 A Minecraft plugin that's make it possible to make GUI's
 Use the example file to use as example for you work for your own GUI's
 
-Short tutorial
-#Placeholders
+Short tutorial:
+Placeholders:
 <player>
 <world>
 <online>
@@ -16,7 +16,7 @@ Short tutorial
 <y>
 <z>
 
-#Items
+Items:
 name: displayname
 lore: lore (list)
 material: item/block

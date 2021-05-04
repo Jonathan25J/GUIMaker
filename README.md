@@ -32,33 +32,9 @@ Required-items: items that needs to be required to use this item (list)
 Commands: execute commands with the item (list)
 Head: when material = player_head than me(player) or username (head: me || head: Notch)
 
-# Example:
-Example:
-  Name: '&bHello <player>'
-  Material: diamond_block || player_head
-  Head: me
-  X: 1
-  Y: 3
-  Lore:
-  - 'user: <player>'
-  - 'world: <world>'
-  - 'level: <level>'
-  - 'coords: x: <x>, y: <y>, z: <z>'
-  Commands:
-  - op, op <player>
-  - console, stop
-  - open, file.yml
-  - give @s pufferfish
-  Keep-open: true
-  Permission: jonaqhan.example
-  Access-denied: '&cYou dont have the right permission!'
-  Durrability: 10
-  Enchantments:
-  - unbreaking, 3
-  Hide-enchantments: true
- 
-# Picture
+# Pictures
 ![image](https://user-images.githubusercontent.com/78378288/117069130-6cc5ca00-ad2c-11eb-920e-a520f2599d80.png)
+![image](https://user-images.githubusercontent.com/78378288/117069422-bd3d2780-ad2c-11eb-8137-c10781637a39.png)
 
 # Inspired of
 ChestCommands plugin from FiloGhost

@@ -57,6 +57,8 @@ Example:
   - unbreaking, 3
   Hide-enchantments: true
  
+# Picture
+https://cdn.discordapp.com/attachments/817031978489479188/839244655047868476/unknown.png
 
 
 # Inspired of

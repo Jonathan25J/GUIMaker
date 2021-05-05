@@ -78,9 +78,10 @@ public class Click implements Listener {
 						executeCommands(config, key, p);
 
 					if (config.getString(key + ".Keep-open") != null)
-						if (config.getBoolean(key + ".Keep-open") == true)
+						if (config.getBoolean(key + ".Keep-open") == true) {
+							p.updateInventory();
 							return;
-
+						}
 					p.closeInventory();
 					p.updateInventory();
 					return;

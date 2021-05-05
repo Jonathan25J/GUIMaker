@@ -33,7 +33,7 @@ Commands: execute commands with the item (list)
 Head: when material = player_head than me(player) or username (head: me || head: Notch)
 
 Example:
-Example:
+normal_item:
   Name: '&bHello <player>'
   Material: diamond_block || player_head
   Head: me
@@ -48,7 +48,8 @@ Example:
   - op, op <player>
   - console, stop
   - open, file.yml
-  - give @s pufferfish
+  - give, pufferfish 10
+  - 'tell, &btext with color'
   Keep-open: true
   Permission: jonaqhan.example
   Access-denied: '&cYou dont have the right permission!'

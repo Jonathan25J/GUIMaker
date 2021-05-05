@@ -275,6 +275,21 @@ public class Click implements Listener {
 
 				}
 
+				if (args[0].trim().equalsIgnoreCase("give")) {
+					String[] content = args[1].substring(1).split(" ");
+					String material = content[0].toUpperCase();
+					int amount = Integer.valueOf(content[1]);
+
+					ItemStack item = new ItemStack(Material.getMaterial(material), amount);
+
+					p.getInventory().addItem(item);
+				}
+
+				if (args[0].trim().equalsIgnoreCase("tell")) {
+					String message = Placeholders.common(p, Color.text(args[1].substring(1)));
+					p.sendMessage(message);
+				}
+
 			}
 
 		}
